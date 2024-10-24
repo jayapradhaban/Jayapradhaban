@@ -1,0 +1,15 @@
+import { View, Text, StyleSheet, Image } from 'react-native'
+import React from 'react'
+import { StatusBar } from 'expo-status-bar'
+
+const Profile = () => {
+  return (
+    <View>
+      <StatusBar style='dark' />
+      <Text>Welcome</Text>
+    </View>
+  )
+}
+
+export default Profile
+
